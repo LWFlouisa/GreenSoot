@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Something about me.
+This will function as a calligraphy newsletter using reed pens, brushes, and dip pens.
