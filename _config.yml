@@ -1,0 +1,32 @@
+title: VampireNewsletter
+description: "A newsletter for vampires."
+author:
+  name: "VampireFolk"
+  email: "yjsybhvfn@tznvy.pbz"
+  url: "https://lwflouisa.github.io/VampireNewsletter"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "SRWeaver"
+year : "2021"
